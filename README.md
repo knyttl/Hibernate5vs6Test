@@ -2,7 +2,7 @@
 
 This is a demo repository with issue we are having in Hibernate 6 with complex @OneToMany relationship. 
 
-To run the test:
+To run the test with Hibernate 5, which is pre-selected in `pom.xml`:
 
 ```bash
  mvn test -Dhibernate.server={my-server} -Dhibernate.database={my-database} -Dhibernate.password={my-password} -Dhibernate.user={db-user}
